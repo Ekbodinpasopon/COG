@@ -140,6 +140,8 @@ No files should be changed during inspect-only review unless that is explicitly 
 
 After the inspect-only review, Codex may create or update only approved files.
 
+Use `TEMPLATE/MINIMAL_ALIGNMENT_STARTER_PACK.md` only after the inspect-only assessment has been reviewed and the minimal alignment scope has been explicitly approved.
+
 Examples:
 
 - add or update `BRAIN_INDEX.md`

@@ -48,6 +48,8 @@ Use it to understand where each rule, template, and handoff file belongs before 
   - Copy-ready project instruction template for ChatGPT.
 - `TEMPLATE/EXISTING_PROJECT_ASSESSMENT_STARTER_PACK.md`
   - Copy-ready starter pack for assessing an existing project before applying COG workflow changes.
+- `TEMPLATE/MINIMAL_ALIGNMENT_STARTER_PACK.md`
+  - Copy-ready starter pack for applying approved minimal COG alignment changes after inspect-only assessment.
 - `TEMPLATE/PROJECT_SUMMARY_AND_BOUNDARY_STARTER_PACK.md`
   - Copy-ready starter pack for the first ChatGPT project summary and boundary drafting step.
 - `TEMPLATE/CHATGPT_PROJECT_INSTRUCTION_STARTER_PACK.md`
