@@ -147,6 +147,8 @@ When creating the GitHub repository:
 
 Set up the ChatGPT Project only after the Project Instruction is drafted.
 
+Use `TEMPLATE/CHATGPT_PROJECT_INSTRUCTION_STARTER_PACK.md` after project summary and boundary drafting, and before finalizing the ChatGPT Project.
+
 Then:
 
 1. Create the ChatGPT Project.

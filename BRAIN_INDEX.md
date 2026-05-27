@@ -44,6 +44,8 @@ Use it to understand where each rule, template, and handoff file belongs before 
 
 - `TEMPLATE/CHATGPT_PROJECT_INSTRUCTIONS_TEMPLATE.md`
   - Copy-ready project instruction template for ChatGPT.
+- `TEMPLATE/CHATGPT_PROJECT_INSTRUCTION_STARTER_PACK.md`
+  - Copy-ready starter pack for creating ChatGPT Project Instructions from a project summary and boundary.
 - `TEMPLATE/ISSUE_1_CODEX_HANDOFF_STARTER_PACK.md`
   - Copy-ready starter pack for GitHub Issue #1 and Codex Handoff #1.
 - `TEMPLATE/CODEX_HANDOFF_TEMPLATE.md`
