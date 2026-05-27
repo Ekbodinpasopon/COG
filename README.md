@@ -7,6 +7,7 @@ This repository is a public-safe master template for starting new AI-assisted pr
 ## Stable Release
 
 - Current stable release: `v1.0.0-canonical`
+- Release URL: [https://github.com/Ekbodinpasopon/COG/releases/tag/v1.0.0-canonical](https://github.com/Ekbodinpasopon/COG/releases/tag/v1.0.0-canonical)
 - Use this release as the public entry point for starting new projects from the canonical COG workflow surface.
 
 ## Purpose
