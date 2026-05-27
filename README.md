@@ -4,6 +4,11 @@ COG means `Codex + Obsidian + GitHub`.
 
 This repository is a public-safe master template for starting new AI-assisted projects from zero with `ChatGPT + Codex + Obsidian + GitHub`.
 
+## Stable Release
+
+- Current stable release: `v1.0.0-canonical`
+- Use this release as the public entry point for starting new projects from the canonical COG workflow surface.
+
 ## Purpose
 
 Use this repository to:
