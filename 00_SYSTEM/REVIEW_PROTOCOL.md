@@ -2,39 +2,64 @@
 
 ## Purpose
 
-Provide a repeatable review gate for Markdown-first AI-assisted repositories.
+Provide a repeatable repository review gate for Markdown-first AI-assisted workflow repositories.
+
+## Review Scope
+
+Review for:
+
+- scope control
+- structure completeness
+- placeholder discipline
+- public safety
+- Markdown and Obsidian compatibility
 
 ## Required Checks
 
 ### Scope Check
 
-- Does the change stay within the requested files and structure?
-- Were any extra folders, features, or systems added without approval?
+- Does the change stay within the requested repository scope?
+- Were unrelated files, features, or systems added?
+- Does the repository still behave like a master template rather than a live project?
 
-### Privacy Check
+### Structure Check
 
-- Are all project-specific values still placeholders where required?
-- Is any real client, property, owner, guest, contact, incident, or policy data present?
-- Are any machine-specific paths present instead of `[Local Vault Path]`?
+- Are all required folders and files present?
+- Do root files explain purpose, roles, and navigation clearly?
+- Does `BRAIN_INDEX.md` map the repository correctly?
 
-### Obsidian Check
+### Safety Check
+
+- Are placeholders used instead of real project data?
+- Is private or identifying information absent?
+- Are examples generic and sanitized?
+- Are local paths replaced with placeholders?
+
+### Markdown Check
 
 - Are all files plain Markdown?
-- Is the structure Obsidian-compatible?
-- Are excluded `.obsidian` files and folders absent?
+- Are headings and sections readable and reusable?
+- Are the files compatible with Obsidian vault use?
 
-### GitHub Review Check
+### Workflow Check
 
-- Is the change readable as a template or protocol?
-- Are assumptions explicit?
-- Is the result safe to keep private, and ready for later sanitization review?
+- Are ChatGPT, Codex, GitHub, and Obsidian roles clearly separated?
+- Does the routing logic between prompt, issue, and handoff remain clear?
+- Are review and sanitization rules discoverable?
 
 ## Review Result Format
 
-- Status: Pass / Needs Changes
-- Findings:
-  - `[Severity] [File] [Issue]`
-- Decision:
-  - approve
-  - revise
-  - block for sanitization
+Use this output format:
+
+- `Status:` Pass or Needs Changes
+- `Findings:` list each issue with file and reason
+- `Decision:` approve, revise, or block for sanitization
+
+## Blocking Conditions
+
+Block the repository if:
+
+- private data is present
+- executable work has no issue or handoff structure
+- the template is no longer generic
+- required workflow files are missing

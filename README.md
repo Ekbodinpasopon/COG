@@ -1,38 +1,67 @@
 # COG Workflow Template
 
-COG Workflow Template is a master reference template for building AI-assisted project systems using ChatGPT, Codex, Obsidian, and GitHub.
+COG means `Codex + Obsidian + GitHub`.
 
-COG means Codex + Obsidian + GitHub.
+This repository is a public-safe master template for starting new AI-assisted projects from zero with `ChatGPT + Codex + Obsidian + GitHub`.
 
 ## Purpose
 
-This repo is used to:
-1. Start new projects from zero
-2. Standardize existing unfinished projects
-3. Create project-specific ChatGPT instructions
-4. Create Codex handoff prompts
-5. Build Obsidian-compatible Markdown vault structures
-6. Control GitHub review workflow
-7. Prepare public-safe template publishing
+Use this repository to:
+
+1. Start a new repository and Obsidian vault from a clean template.
+2. Define how ChatGPT and Codex should divide planning, review, and execution work.
+3. Keep project operations Markdown-first and Obsidian-compatible.
+4. Standardize GitHub issue, pull request, and review workflows.
+5. Prepare derivative repositories for safe public sharing.
+
+## Operating Model
+
+- `ChatGPT` is used for thinking, planning, reviewing, clarification, and instruction drafting.
+- `Codex` is used for repository execution: creating, editing, reviewing, and pushing files.
+- `Obsidian` is the Markdown knowledge layer.
+- `GitHub` is the issue, versioning, and review layer.
+
+## Who This Template Is For
+
+Use COG when you want to create a project repository from zero with:
+
+- a reusable operating structure
+- clear AI role boundaries
+- sanitized public-safe templates
+- a predictable repository review process
+
+## Repository Map
+
+- `README.md` explains the template and how to use it.
+- `AGENTS.md` defines execution rules and AI role boundaries.
+- `BRAIN_INDEX.md` is the root map of the workflow system.
+- `00_SYSTEM/` holds bootstrap, safety, workflow, review, and publication protocols.
+- `07_SKILLS_PROTOCOLS/` holds role-specific operating protocols.
+- `TEMPLATE/` holds reusable project starter files.
+- `99_CODEX_HANDOFF/` holds ready-to-use Codex handoff prompts.
+- `EXAMPLES/` holds sanitized examples only.
 
 ## Core Rules
 
-- Use placeholders only until project-specific data is approved.
-- Keep all content Obsidian-compatible and Markdown-first.
-- Do not add application code, databases, or package dependencies unless explicitly requested.
-- Do not store private names, contacts, incidents, policies, or machine-specific paths in this template.
+- Keep everything Markdown-first and Obsidian-compatible.
+- Use placeholders until project-specific data is approved.
+- Do not add application code, dependencies, packages, or automation scripts unless explicitly requested.
+- Do not place private operational data in this template repository.
+- Treat this repository as a master workflow template, not as a live project workspace.
 
-## Repository Layout
+## How To Use COG
 
-- `00_SYSTEM/` = bootstrap, workflow, review, and publication control
-- `07_SKILLS_PROTOCOLS/` = reusable operating protocols
-- `TEMPLATE/` = copy-and-adapt template files
-- `99_CODEX_HANDOFF/` = ready-to-use Codex prompts
-- `EXAMPLES/` = sanitized examples
+1. Copy or template this repository into a new repository.
+2. Read [00_SYSTEM/PROJECT_BOOTSTRAP_PLAYBOOK.md](00_SYSTEM/PROJECT_BOOTSTRAP_PLAYBOOK.md).
+3. Fill in the files under `TEMPLATE/` with project-specific placeholders first.
+4. Start planning in ChatGPT.
+5. Open executable repository work as GitHub Issues.
+6. Use a Codex handoff from `99_CODEX_HANDOFF/` when files need to be created, edited, reviewed, or pushed.
 
-## Recommended Use
+## Safety
 
-1. Copy or template this repository into a new project repository.
-2. Replace placeholders after confirming project scope and privacy rules.
-3. Keep private operational data outside the public-safe template layer.
-4. Run the sanitization and review checklists before publishing any derivative repository.
+Before publishing any derivative repository, run:
+
+1. [00_SYSTEM/REPO_SAFETY_AND_SANITIZATION_PROTOCOL.md](00_SYSTEM/REPO_SAFETY_AND_SANITIZATION_PROTOCOL.md)
+2. [00_SYSTEM/REVIEW_PROTOCOL.md](00_SYSTEM/REVIEW_PROTOCOL.md)
+3. [99_CODEX_HANDOFF/SANITIZE_PROJECT_FOR_PUBLIC_TEMPLATE.md](99_CODEX_HANDOFF/SANITIZE_PROJECT_FOR_PUBLIC_TEMPLATE.md)
