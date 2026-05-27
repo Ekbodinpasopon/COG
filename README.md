@@ -10,6 +10,45 @@ This repository is a public-safe master template for starting new AI-assisted pr
 - Release URL: [https://github.com/Ekbodinpasopon/COG/releases/tag/v1.0.0-canonical](https://github.com/Ekbodinpasopon/COG/releases/tag/v1.0.0-canonical)
 - Use this release as the public entry point for starting new projects from the canonical COG workflow surface.
 
+## Choose Your Workflow Path
+
+### Path A - Start a new project from zero
+
+Use this when you only have a project idea and want to create a new repository, ChatGPT Project, Codex workflow, and optional Obsidian structure.
+
+Read first:
+
+- [00_SYSTEM/START_FROM_ZERO_WORKFLOW.md](00_SYSTEM/START_FROM_ZERO_WORKFLOW.md)
+
+Starter packs:
+
+- [TEMPLATE/PROJECT_SUMMARY_AND_BOUNDARY_STARTER_PACK.md](TEMPLATE/PROJECT_SUMMARY_AND_BOUNDARY_STARTER_PACK.md)
+- [TEMPLATE/CHATGPT_PROJECT_INSTRUCTION_STARTER_PACK.md](TEMPLATE/CHATGPT_PROJECT_INSTRUCTION_STARTER_PACK.md)
+- [TEMPLATE/ISSUE_1_CODEX_HANDOFF_STARTER_PACK.md](TEMPLATE/ISSUE_1_CODEX_HANDOFF_STARTER_PACK.md)
+
+Typical flow:
+
+Raw idea -> ChatGPT project summary -> ChatGPT Project Instruction -> GitHub Issue #1 -> Codex Handoff #1 -> Repository bootstrap -> Review
+
+### Path B - Run or align an existing project
+
+Use this when you already have a repository, `README.md`, `AGENTS.md`, workflow files, Obsidian notes, issues, or project documents.
+
+Read first:
+
+- [00_SYSTEM/RUN_EXISTING_PROJECT_WORKFLOW.md](00_SYSTEM/RUN_EXISTING_PROJECT_WORKFLOW.md)
+
+Starter packs:
+
+- [TEMPLATE/EXISTING_PROJECT_ASSESSMENT_STARTER_PACK.md](TEMPLATE/EXISTING_PROJECT_ASSESSMENT_STARTER_PACK.md)
+- [TEMPLATE/MINIMAL_ALIGNMENT_STARTER_PACK.md](TEMPLATE/MINIMAL_ALIGNMENT_STARTER_PACK.md)
+
+Typical flow:
+
+Existing repo -> ChatGPT assessment -> Inspect-only Issue -> Codex inspect-only handoff -> Review -> Approved minimal alignment -> Codex apply -> Review / Log
+
+If the project already has `AGENTS.md` or workflow rules, do not overwrite them blindly. Inspect first, preserve project-specific rules, and add COG only as a process layer.
+
 ## Purpose
 
 Use this repository to:
