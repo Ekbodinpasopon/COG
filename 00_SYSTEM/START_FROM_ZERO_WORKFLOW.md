@@ -99,6 +99,8 @@ Follow this order:
 
 ## First ChatGPT Prompt
 
+Use `TEMPLATE/PROJECT_SUMMARY_AND_BOUNDARY_STARTER_PACK.md` before drafting the ChatGPT Project Instruction, GitHub Issue #1, and Codex Handoff #1 if you want a copy-ready first-session prompt.
+
 Copy this into the first ChatGPT chat and fill in the placeholders:
 
 ```text
