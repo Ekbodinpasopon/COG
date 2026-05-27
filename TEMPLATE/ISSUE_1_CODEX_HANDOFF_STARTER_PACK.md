@@ -93,12 +93,17 @@ Bootstrap the repository from the COG workflow so the project can start with a c
 
 ## Report back format
 
+Follow `07_SKILLS_PROTOCOLS/TASK_COMPLETION_AND_HANDOFF_PROTOCOL.md` for closeout state and next-action payload.
+
 1. Files created
 2. Files modified
-3. Assumptions used
+3. Files intentionally not touched, when scope control matters
 4. Safety review result
-5. Risks / rollback notes
-6. Recommended next step
+5. Assumptions used
+6. Risks / rollback notes
+7. Recommended next step
+8. Next Action Type
+9. Next Action Payload
 ```
 
 ## Codex Handoff #1 Template
@@ -147,10 +152,13 @@ Safety rules:
 Report back format:
 1. Files created
 2. Files modified
-3. Assumptions used
+3. Files intentionally not touched, when scope control matters
 4. Safety review result
-5. Risks / rollback notes
-6. Recommended next step
+5. Assumptions used
+6. Risks / rollback notes
+7. Recommended next step
+8. Next Action Type
+9. Next Action Payload
 ```
 
 ## Report Back Format
@@ -159,10 +167,13 @@ Use this exact structure:
 
 1. Files created
 2. Files modified
-3. Assumptions used
+3. Files intentionally not touched, when scope control matters
 4. Safety review result
-5. Risks / rollback notes
-6. Recommended next step
+5. Assumptions used
+6. Risks / rollback notes
+7. Recommended next step
+8. Next Action Type
+9. Next Action Payload
 
 ## Safety Notes
 

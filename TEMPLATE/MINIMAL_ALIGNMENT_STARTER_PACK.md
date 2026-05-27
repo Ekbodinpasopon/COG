@@ -94,6 +94,8 @@ Apply only the approved minimal COG alignment changes to the existing project.
 
 ## Report back format
 
+Follow `07_SKILLS_PROTOCOLS/TASK_COMPLETION_AND_HANDOFF_PROTOCOL.md` for closeout state and next-action payload.
+
 1. Files created
 2. Files modified
 3. Files intentionally not touched
@@ -102,6 +104,8 @@ Apply only the approved minimal COG alignment changes to the existing project.
 6. Assumptions used
 7. Risks / rollback notes
 8. Recommended next step
+9. Next Action Type
+10. Next Action Payload
 ```
 
 ## Codex Minimal Alignment Handoff Template
@@ -148,6 +152,8 @@ Report back format:
 6. Assumptions used
 7. Risks / rollback notes
 8. Recommended next step
+9. Next Action Type
+10. Next Action Payload
 ```
 
 ## Allowed Change Examples
@@ -181,6 +187,8 @@ Use this exact structure:
 6. Assumptions used
 7. Risks / rollback notes
 8. Recommended next step
+9. Next Action Type
+10. Next Action Payload
 
 ## Done Criteria
 

@@ -165,6 +165,8 @@ This issue is inspect-only. No repository files should be created, edited, moved
 
 ## Report back format
 
+Follow `07_SKILLS_PROTOCOLS/TASK_COMPLETION_AND_HANDOFF_PROTOCOL.md` for closeout state and next-action payload.
+
 1. Files inspected
 2. Existing structure summary
 3. Existing rules found
@@ -175,6 +177,8 @@ This issue is inspect-only. No repository files should be created, edited, moved
 8. Assumptions used
 9. Risks / rollback notes
 10. Recommended next step
+11. Next Action Type
+12. Next Action Payload
 
 ## Acceptance criteria
 
@@ -246,6 +250,8 @@ Report back format:
 8. Assumptions used
 9. Risks / rollback notes
 10. Recommended next step
+11. Next Action Type
+12. Next Action Payload
 ```
 
 ## Report Back Format
@@ -262,6 +268,8 @@ Use this exact structure:
 8. Assumptions used
 9. Risks / rollback notes
 10. Recommended next step
+11. Next Action Type
+12. Next Action Payload
 
 ## Safety Notes
 

@@ -64,10 +64,16 @@ GitHub is the issue, branch, pull request, and review layer.
 
 ## Review Output
 
-After completing work, report only:
+After completing work, follow `07_SKILLS_PROTOCOLS/TASK_COMPLETION_AND_HANDOFF_PROTOCOL.md` for closeout state and next-action payload.
+
+Report only:
 
 1. Files created
 2. Files modified
-3. Assumptions used
-4. Risks / rollback notes
-5. Recommended next step
+3. Files intentionally not touched, when scope control matters
+4. Safety review result, when relevant
+5. Assumptions used
+6. Risks / rollback notes
+7. Recommended next step
+8. Next Action Type
+9. Next Action Payload
