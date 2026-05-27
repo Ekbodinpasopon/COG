@@ -40,6 +40,8 @@ Use Codex as the repository execution layer.
 
 ## Required Report Back
 
+Follow `TASK_COMPLETION_AND_HANDOFF_PROTOCOL.md` for closeout state, next-action routing, and payload format.
+
 1. Files created
 2. Files modified
 3. Assumptions used

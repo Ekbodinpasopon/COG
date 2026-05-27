@@ -46,6 +46,10 @@ The Codex handoff is the execution packet that translates issue scope into concr
 2. If the work is ready to execute in the repository, create a GitHub Issue.
 3. If the GitHub Issue requires file work, prepare a Codex handoff.
 
+## Post-Task Closeout
+
+Use `TASK_COMPLETION_AND_HANDOFF_PROTOCOL.md` after execution, review, or inspection to decide the final closeout state and next-action payload.
+
 ## Anti-Patterns
 
 - Do not use ChatGPT alone for untracked repository execution.

@@ -33,6 +33,8 @@ Use it to understand where each rule, template, and handoff file belongs before 
   - How ChatGPT should be used for planning and review.
 - `07_SKILLS_PROTOCOLS/CODEX_EXECUTION_PROTOCOL.md`
   - How Codex should be used for repository execution work.
+- `07_SKILLS_PROTOCOLS/TASK_COMPLETION_AND_HANDOFF_PROTOCOL.md`
+  - Standard compact task completion, closeout, and next-action routing protocol.
 - `07_SKILLS_PROTOCOLS/GITHUB_ISSUE_PROTOCOL.md`
   - How to define executable repository work as GitHub Issues.
 - `07_SKILLS_PROTOCOLS/GITHUB_PR_REVIEW_PROTOCOL.md`
