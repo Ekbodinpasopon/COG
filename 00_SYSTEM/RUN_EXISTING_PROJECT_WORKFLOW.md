@@ -68,6 +68,8 @@ Use `99_CODEX_HANDOFF/STANDARDIZE_EXISTING_PROJECT_WITH_COG.md` when you need a 
 
 ## First ChatGPT Prompt For Existing Project
 
+Use `TEMPLATE/EXISTING_PROJECT_ASSESSMENT_STARTER_PACK.md` before opening the first inspect-only GitHub Issue and Codex inspect-only handoff if you want a copy-ready assessment pack.
+
 Copy this into the first ChatGPT chat and fill in the placeholders:
 
 ```text
