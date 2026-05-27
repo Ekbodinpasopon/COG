@@ -86,7 +86,9 @@ Follow this order:
 6. Paste the Project Instruction into the ChatGPT Project instructions field.
 7. Add the GitHub repository URL to the Project Instruction.
 8. Open Issue #1 in GitHub.
+   - Use `TEMPLATE/ISSUE_1_CODEX_HANDOFF_STARTER_PACK.md` for copy-ready Issue #1 text.
 9. Run Codex using Codex Handoff #1.
+   - Use `TEMPLATE/ISSUE_1_CODEX_HANDOFF_STARTER_PACK.md` for copy-ready Codex Handoff #1 text.
 10. Bring the Codex report back to ChatGPT for review.
 11. Create or align the Obsidian vault structure.
 12. Continue normal work using:
@@ -160,6 +162,7 @@ Rules:
 
 - do not ask Codex to infer missing scope
 - paste the Codex handoff into Codex
+- use `TEMPLATE/ISSUE_1_CODEX_HANDOFF_STARTER_PACK.md` if you want a faster bootstrap draft
 - expect Codex to report:
   - files created
   - files modified
