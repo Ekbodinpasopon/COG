@@ -29,12 +29,21 @@ Set up this repository from the COG template so it can start a new AI-assisted p
 
 - `[List the exact files to create or update for the new project]`
 
+## Bootstrap checklist
+
+- confirm project identity and scope
+- confirm the privacy boundary
+- create the root workflow files
+- create the initial vault structure
+- prepare the first executable issue or handoff
+
 ## Constraints
 
 - Markdown-first only
 - Obsidian-compatible only
 - no application code
 - no packages or automation unless explicitly requested
+- no redesign beyond the requested structure
 
 ## Safety rules
 

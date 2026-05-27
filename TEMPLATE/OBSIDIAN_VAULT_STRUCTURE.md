@@ -29,3 +29,12 @@ Use this structure for a clean Markdown-first vault:
 - Keep the vault readable without requiring proprietary plugins.
 - Prefer one note per purpose.
 - Move unstable draft material out of `01_INBOX` once processed.
+
+## Optional Starter Notes
+
+- `Home` or `Project Map`
+- `Instructions`
+- `Task Queue`
+- `Review Log`
+
+Use plain Markdown links and avoid navigation that depends on local-only workspace state.

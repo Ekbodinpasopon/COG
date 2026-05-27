@@ -23,6 +23,12 @@ Use the right tool for the right kind of work.
 6. Review changes through GitHub pull request workflow when branch-based work is used.
 7. Record stable decisions, logs, and task state in Obsidian-compatible Markdown.
 
+## Repository Source Of Truth
+
+- Do not treat chat output as source of truth until it is written into the repository.
+- Keep review discussion tied to files, decisions, and tracked repository work.
+- Use `EXAMPLES/` only as sanitized formatting references, not as operational content.
+
 ## Tool Responsibilities
 
 ### ChatGPT
@@ -71,3 +77,5 @@ Use the right tool for the right kind of work.
 - Keep public-safe template files generic.
 - Make file ownership and responsibilities explicit.
 - Prefer stable Markdown artifacts over chat-only decisions.
+- Use pull requests for review-sensitive template changes.
+- Keep commit scope narrow and descriptive.

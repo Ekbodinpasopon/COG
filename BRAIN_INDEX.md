@@ -79,34 +79,11 @@ Use it to understand where each rule, template, and handoff file belongs before 
 - `EXAMPLES/EXAMPLE_CHATGPT_PROJECT_INSTRUCTION_SANITIZED.md`
   - Sanitized ChatGPT project instruction example.
 
-## Retained Legacy Files
-
-These files may remain in the repository from earlier template iterations and should be treated as retained foundation material until explicitly cleaned up:
-
-- `00_SYSTEM/CHATGPT_CODEX_GITHUB_WORKFLOW_PROTOCOL.md`
-- `00_SYSTEM/MASTER_REFERENCE_USAGE_GUIDE.md`
-- `00_SYSTEM/PUBLICATION_SAFETY_PROTOCOL.md`
-- `07_SKILLS_PROTOCOLS/codex-handoff-protocol.md`
-- `07_SKILLS_PROTOCOLS/github-obsidian-sync-protocol.md`
-- `07_SKILLS_PROTOCOLS/obsidian-lite-navigation-protocol.md`
-- `99_CODEX_HANDOFF/existing-project-migration-prompt.md`
-- `99_CODEX_HANDOFF/new-project-bootstrap-master-prompt.md`
-- `99_CODEX_HANDOFF/public-repo-sanitization-review-prompt.md`
-- `99_CODEX_HANDOFF/sample-codex-task-prompt.md`
-- `EXAMPLES/example-codex-report.md`
-- `EXAMPLES/example-project-map.md`
-- `EXAMPLES/example-review-result.md`
-- `TEMPLATE/EXISTING_PROJECT_MIGRATION_CHECKLIST.md`
-- `TEMPLATE/NEW_PROJECT_CHECKLIST.md`
-- `TEMPLATE/OBSIDIAN_LITE_HOME_TEMPLATE.md`
-- `TEMPLATE/PROJECT_FOLDER_STRUCTURE_TEMPLATE.md`
-- `TEMPLATE/SANITIZATION_CHECKLIST.md`
-
 ## Navigation Order
 
 1. Read `README.md`.
 2. Read `AGENTS.md`.
-3. Use this index to find the relevant protocol or template.
+3. Use this index as the canonical navigation surface.
 4. Use `00_SYSTEM/` before changing workflow behavior.
 5. Use `07_SKILLS_PROTOCOLS/` before drafting prompts, issues, or review requests.
 6. Use `TEMPLATE/` when creating a new derivative repository.

@@ -12,6 +12,8 @@
 
 [Describe exactly what is in scope and what is out of scope.]
 
+State whether this is bootstrap, standardization, sanitization, review, or another repository workflow task.
+
 ## Files to inspect
 
 - `[path/to/file]`
@@ -24,6 +26,7 @@
 
 - `[Constraint 1]`
 - `[Constraint 2]`
+- `[List the allowed folders and files explicitly]`
 
 ## Safety rules
 

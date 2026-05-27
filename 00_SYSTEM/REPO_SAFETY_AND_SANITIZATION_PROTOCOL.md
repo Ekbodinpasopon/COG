@@ -18,6 +18,8 @@ It must not contain:
 - real prices or financial records
 - machine-specific local paths
 - live operational screenshots or exports
+- hidden tool metadata
+- local-only Obsidian workspace artifacts
 
 ## Allowed Content
 
@@ -45,19 +47,31 @@ Do not replace placeholders with real values in the master template.
 1. Search for real names and identifying nouns.
 2. Search for emails, phone numbers, URLs, IDs, and tokens.
 3. Search for local file system paths and device-specific references.
-4. Confirm examples are fictional and non-identifying.
-5. Confirm no live operational data was copied from private repositories.
-6. Confirm no hidden assumptions depend on a private environment.
-7. Confirm the repository still reads as a reusable template.
+4. Search for hidden tool metadata or export residue.
+5. Confirm examples are fictional and non-identifying.
+6. Confirm no live operational data was copied from private repositories.
+7. Confirm no hidden assumptions depend on a private environment.
+8. Confirm the repository still reads as a reusable template.
+
+## Local Artifact Rules
+
+Do not track local-only Obsidian artifacts such as:
+
+- `.obsidian/workspace.json`
+- `.obsidian/plugins/`
+- `.obsidian/themes/`
 
 ## Public Review Gate
 
 Before publishing or sharing a derivative repository:
 
-1. Review all Markdown files.
+1. Review all Markdown files and tracked support files.
 2. Confirm placeholders are preserved where appropriate.
 3. Remove private history or project-specific details from examples.
-4. Re-run the review protocol.
+4. Confirm `.gitignore` excludes local-only Obsidian workspace artifacts.
+5. Confirm any publication-facing license text is intentional.
+6. Re-run the review protocol.
+7. Record the review outcome in a pull request, release note, or equivalent tracked review record.
 
 ## If A Leak Is Found
 

@@ -16,6 +16,7 @@ Review the repository for private or identifying data and convert it into a publ
 - identify private or identifying content
 - replace unsafe content with placeholders
 - preserve reusable structure
+- check for hidden tool metadata and local-only workspace residue
 
 ## Files to inspect
 
@@ -41,6 +42,7 @@ Review the repository for private or identifying data and convert it into a publ
 
 - remove or replace real names, contacts, credentials, incidents, prices, and local paths
 - keep examples fictional and non-identifying
+- remove local-only Obsidian workspace artifacts from tracked content
 - block publication if any unresolved leak remains
 
 ## Acceptance criteria

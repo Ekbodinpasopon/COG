@@ -24,6 +24,17 @@ At the end of this process, the new repository should have:
 - `[Primary Notes Location]`
 - `[Initial Constraints]`
 
+## Minimum Repository Skeleton
+
+- `README.md`
+- `AGENTS.md`
+- `BRAIN_INDEX.md`
+- `00_SYSTEM/`
+- `07_SKILLS_PROTOCOLS/`
+- `TEMPLATE/`
+- `99_CODEX_HANDOFF/`
+- `EXAMPLES/`
+
 ## Step-by-Step Process
 
 1. Confirm the project objective, scope, and visibility intent.
@@ -38,6 +49,17 @@ At the end of this process, the new repository should have:
 10. Ask Codex to create or update the repository files defined in the issue.
 11. Review the repository using `00_SYSTEM/REVIEW_PROTOCOL.md`.
 12. If the repository may become public, run `00_SYSTEM/REPO_SAFETY_AND_SANITIZATION_PROTOCOL.md`.
+
+## Bootstrap Checklist
+
+- [ ] Confirm `[Project Name]` and `[Repository Name]`
+- [ ] Confirm `[Project Objective]` and `[Project Scope]`
+- [ ] Confirm the privacy boundary for notes, examples, and handoff inputs
+- [ ] Create project instructions from `TEMPLATE/CHATGPT_PROJECT_INSTRUCTIONS_TEMPLATE.md`
+- [ ] Create the initial vault structure from `TEMPLATE/OBSIDIAN_VAULT_STRUCTURE.md`
+- [ ] Prepare the first Codex bootstrap handoff
+- [ ] Review placeholder coverage before adding project-specific values
+- [ ] Run safety review before any public sharing
 
 ## Bootstrap Sequence By Tool
 

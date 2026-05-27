@@ -10,3 +10,5 @@ Use these files to understand expected structure and tone, not as sources of rea
 - use placeholders or neutral sample values
 - do not add real operational history
 - review examples during sanitization checks
+
+Use only the canonical example files listed in `BRAIN_INDEX.md`.

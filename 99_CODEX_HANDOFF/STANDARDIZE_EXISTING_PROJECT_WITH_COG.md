@@ -29,6 +29,15 @@ Standardize the repository so its workflow files align with the COG operating mo
 
 - `[List the exact files to create or update]`
 
+## Migration checklist
+
+- identify the repository or vault to standardize
+- confirm whether private operational data is present
+- map existing folders to the target workflow structure
+- move only reusable workflow material into template-safe locations
+- replace sensitive project-specific values with placeholders where required
+- review and sanitize before any public-safe extraction
+
 ## Constraints
 
 - preserve project-specific content where approved

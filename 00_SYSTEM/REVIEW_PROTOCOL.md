@@ -55,6 +55,12 @@ Use this output format:
 - `Findings:` list each issue with file and reason
 - `Decision:` approve, revise, or block for sanitization
 
+## Example Review Result
+
+- `Status:` Needs Changes
+- `Findings:` `README.md` contains a machine-specific path instead of a placeholder
+- `Decision:` block for sanitization
+
 ## Blocking Conditions
 
 Block the repository if:

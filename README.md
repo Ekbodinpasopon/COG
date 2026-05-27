@@ -41,6 +41,8 @@ Use COG when you want to create a project repository from zero with:
 - `99_CODEX_HANDOFF/` holds ready-to-use Codex handoff prompts.
 - `EXAMPLES/` holds sanitized examples only.
 
+Use the files listed in `BRAIN_INDEX.md` as the canonical COG surface.
+
 ## Core Rules
 
 - Keep everything Markdown-first and Obsidian-compatible.
@@ -53,10 +55,11 @@ Use COG when you want to create a project repository from zero with:
 
 1. Copy or template this repository into a new repository.
 2. Read [00_SYSTEM/PROJECT_BOOTSTRAP_PLAYBOOK.md](00_SYSTEM/PROJECT_BOOTSTRAP_PLAYBOOK.md).
-3. Fill in the files under `TEMPLATE/` with project-specific placeholders first.
-4. Start planning in ChatGPT.
-5. Open executable repository work as GitHub Issues.
-6. Use a Codex handoff from `99_CODEX_HANDOFF/` when files need to be created, edited, reviewed, or pushed.
+3. Use [BRAIN_INDEX.md](BRAIN_INDEX.md) as the authoritative navigation map.
+4. Fill in the files under `TEMPLATE/` with project-specific placeholders first.
+5. Start planning in ChatGPT.
+6. Open executable repository work as GitHub Issues.
+7. Use a Codex handoff from `99_CODEX_HANDOFF/` when files need to be created, edited, reviewed, or pushed.
 
 ## Safety
 
