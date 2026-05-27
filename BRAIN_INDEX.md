@@ -14,6 +14,8 @@ Use it to understand where each rule, template, and handoff file belongs before 
 
 - `00_SYSTEM/START_FROM_ZERO_WORKFLOW.md`
   - Practical operator manual for starting a new project from zero.
+- `00_SYSTEM/RUN_EXISTING_PROJECT_WORKFLOW.md`
+  - Practical operator manual for applying COG to an existing project or repository without overwriting project-specific rules.
 - `00_SYSTEM/PROJECT_BOOTSTRAP_PLAYBOOK.md`
   - Step-by-step process for starting a new project from zero.
 - `00_SYSTEM/CHATGPT_CODEX_GITHUB_OBSIDIAN_WORKFLOW.md`

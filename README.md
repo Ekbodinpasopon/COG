@@ -62,11 +62,12 @@ Use the files listed in `BRAIN_INDEX.md` as the canonical COG surface.
 1. Copy or template this repository into a new repository.
 2. Read [00_SYSTEM/PROJECT_BOOTSTRAP_PLAYBOOK.md](00_SYSTEM/PROJECT_BOOTSTRAP_PLAYBOOK.md).
 3. Starting a new project from zero? Read [00_SYSTEM/START_FROM_ZERO_WORKFLOW.md](00_SYSTEM/START_FROM_ZERO_WORKFLOW.md) first.
-4. Use [BRAIN_INDEX.md](BRAIN_INDEX.md) as the authoritative navigation map.
-5. Fill in the files under `TEMPLATE/` with project-specific placeholders first.
-6. Start planning in ChatGPT.
-7. Open executable repository work as GitHub Issues.
-8. Use a Codex handoff from `99_CODEX_HANDOFF/` when files need to be created, edited, reviewed, or pushed.
+4. Working with an existing project? Read [00_SYSTEM/RUN_EXISTING_PROJECT_WORKFLOW.md](00_SYSTEM/RUN_EXISTING_PROJECT_WORKFLOW.md) before changing repository files.
+5. Use [BRAIN_INDEX.md](BRAIN_INDEX.md) as the authoritative navigation map.
+6. Fill in the files under `TEMPLATE/` with project-specific placeholders first.
+7. Start planning in ChatGPT.
+8. Open executable repository work as GitHub Issues.
+9. Use a Codex handoff from `99_CODEX_HANDOFF/` when files need to be created, edited, reviewed, or pushed.
 
 ## Safety
 
