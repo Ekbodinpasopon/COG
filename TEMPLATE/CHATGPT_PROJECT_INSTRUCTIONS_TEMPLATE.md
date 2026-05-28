@@ -2,6 +2,17 @@
 
 Copy this into a new ChatGPT Project instruction field and replace placeholders only after scope is approved.
 
+## Repository Identity
+
+Every generated ChatGPT Project Instruction must begin with Repository Identity before roles, workflows, routing, or safety rules.
+
+- Primary repository: `[Repository URL]`
+- Local workspace: `[Local Workspace Path]`
+- Source of truth: `[GitHub Repository / Obsidian Vault / Other Approved Source]`
+- This instruction governs: `[Exact Project / Repository / Workspace Scope]`
+- This instruction does not govern: `[Excluded Projects / Repositories / Workspaces]`
+- Related projects and handoff targets: `[Related Project Names Or Repositories]`
+
 ## Project Identity
 
 - Project Name: `[Project Name]`
